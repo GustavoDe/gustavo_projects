@@ -1,0 +1,88 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css");
+
+*{/*Página inteira*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.teste, .evento{
+    position: absolute;
+    top: 10px;
+    width: 100px;
+}
+.Image{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color:rgb(43, 45, 49);
+}
+.teste:hover > .ocultar{ /*Formatações contidas em navegação*/
+   display: block;
+}
+.ocultar{
+    display:none;
+}
+
+a{
+    display: block;
+    top: 20px;
+    padding:20px;
+    color:slateblue;
+    font-family:'Indie Flower', cursive;
+    background-color: #fff;
+}
+a:hover{
+    background-color: aliceblue;
+    color:black;
+}
+nav{
+    /*background-color: red;*/
+    right: 2rem;
+    height: 2rem;
+    z-index: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    width: 100%;
+    height: .1rem;
+    background-color: white;
+}
+.teste p{
+    color: #fff;
+    font-family:'Indie Flower', cursive;
+    text-align: center;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.Image img{/*Imagem do fundo inicial da página*/
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    opacity: 0.3;
+}
+.text{/*Formatção de todos os titulos contidos na classe text*/
+    position: absolute;
+    right:30%;
+    top: 38%;
+}
+.text h1{ /*Título da Página*/
+    color:rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: 'Staatliches', cursive;
+}
+.text p{/*Paragráfo abaixo do Título*/
+    font-size: 2rem;
+    color:gainsboro;
+    font-family: 'Indie Flower', cursive;
+}
+
+
+
+
+
+
+
+
+
